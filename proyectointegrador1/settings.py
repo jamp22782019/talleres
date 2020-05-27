@@ -25,7 +25,7 @@ SECRET_KEY = 'bo787_kr_5+k2uh2=+51j#=!4^!c(4r_+c@5z6hn^do+h&zhon'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
