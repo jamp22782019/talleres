@@ -76,10 +76,23 @@ WSGI_APPLICATION = 'proyectointegrador1.wsgi.application'
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+   ## 'default': {
+   ##     'ENGINE': 'django.db.backends.mysql',
+   ##     'NAME': 'bdjulian',                     
+   ##     'USER': 'root',                     
+   ##     'PASSWORD': '82134', 
+   ## }
+     'default': {
+       'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'pi1-efit-db',                     
+        'USER': 'rootAzure@juliancho2020server',      
+        'HOST': 'juliancho2020server.mysql.database.azure.com',                     
+               
+        'PASSWORD': 'J@mp2278', 
+        'PORT': '3306',
+
     }
+
 }
 
 

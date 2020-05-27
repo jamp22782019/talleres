@@ -4,4 +4,4 @@ from .models import Ultrasonic
 class UltrasonicSerializer(serializers.ModelSerializer):
     class Meta:
         model = Ultrasonic
-        fields = ('id', 'type', 'value')
+        fields = ('id', 'type', 'value','latitud','longitud','area')
