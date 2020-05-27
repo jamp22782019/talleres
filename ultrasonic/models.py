@@ -9,7 +9,5 @@ class Ultrasonic(models.Model):
     longitud = models.IntegerField(verbose_name='Longitud')
     area = models.IntegerField(verbose_name='Area')
 
-
-
     created = models.DateTimeField(auto_now_add=True)
     updated = models.DateTimeField(auto_now=True)
